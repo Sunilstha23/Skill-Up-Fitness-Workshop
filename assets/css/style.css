@@ -7,6 +7,10 @@
 a{
     text-decoration: none;
 }
+a:hover, .active{
+    background-image: linear-gradient(to right, rgb(197, 152, 152) ,rgb(114, 79, 79));
+    background-color: brown;
+}
 .background1{
     background-color: black;
     background-image: linear-gradient(to right,rgba(206, 153, 153,0.5),rgba(109, 96, 96,0.2));
@@ -51,22 +55,14 @@ header > span{
 }
 #nav-bar> li{
     display: inline;
-     padding: 10px 20px;
-     margin: 0px 7px;
-    border-radius: 20px;
-    background-color: rgb(85, 67, 67);
-    border: 1px solid rgb(211, 150, 150);
-    
+    margin: 0px 7px;
 }
 #nav-bar >li >a{
+    padding: 10px 20px;
+    background-color: rgb(85, 67, 67);
     color: aliceblue;
-    display: inline-block;
-}
-#nav-bar>li > a:hover{
-    
-    padding: 9px 20px;
-    background-color: red;
     border-radius: 20px;
+    border: 1px solid rgb(211, 150, 150);
 }
 /* section start */
 
@@ -96,23 +92,15 @@ header > span{
 #button1{
     top: 390px;
     left: 600px;
-    padding: 20px 25px;
-    border-radius: 20px;
-    overflow: hidden;
 }
 
 #button1> a{
-text-decoration: none;
-font-size: medium;
-padding: 19px 5px;
-margin: 0;
-border-radius: 20px;
-
-}
-#button1 a:hover{
-    padding: 19px 30px;
-    background-image: linear-gradient(rgb(167, 84, 84), red);
-}
+    font-size: medium;
+    background-color: rgb(243, 239, 239);
+    font-weight: bold;
+    padding: 20px 25px;
+    border-radius: 20px;
+    }
 #description{
     height: 300px;
     /* border: 2px solid red; */
