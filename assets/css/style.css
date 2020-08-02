@@ -3,7 +3,7 @@
     padding: 0;
 
 }
-/* globle */
+/* global*/
 a{
     text-decoration: none;
 }
@@ -21,7 +21,7 @@ a{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-/* end of globle */
+/* end of global */
 header{
     height: 90px;
     width: 100%;
@@ -70,14 +70,14 @@ header > span{
 }
 /* section start */
 
-#welcme-section{
+#welcome-section{
     background-color: rgb(157, 167, 167);
     height: 600px;
     background-image: url(../image/abs2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
-#welcme-section > p , #button1{
+#welcome-section > p , #button1{
     float: right;
     position: relative;
 }
@@ -179,4 +179,11 @@ footer{
     font-weight: bold;
     background-color: black;
     }
-    
+    /* desktop */
+@media only screen and (min-width: 1024px)
+{
+}
+/* tablet   */
+ @media (min-width: 768px) and (max-width: 1023px) {}
+ /* mobile */
+ @media only screen and (max-width: 767px) {}
